@@ -1,163 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="kittens.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Money, but smarter</title>
-    <style>
-* { 
-    box-sizing: border-box;
-}
-        body {
-            background: linear-gradient(135deg, #1e3c72, #2a5298);
-            color: #ffffff;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
-            text-align: center;
-        }
-
-        h1 {
-            margin: 20px 0;
-             color: #f5f7f8;
-            font-family: Arial, sans-serif;
-            font-size: clamp(3rem, 7vw, 5.5rem);
-            font-weight: 900;
-            letter-spacing: -2px;
-            line-height: 0.95;
-            text-shadow:
-                2px 2px 0 rgba(20, 25, 30, 0.8),
-                0 0 18px rgba(255, 255, 255, 0.25);
-            -webkit-text-stroke: 1px rgba(255, 255, 255, 0.35);
-        }
-
-.description {
-    max-width: 600px;
-    color: rgba(255, 255, 255, 0.9);
-    font-family: Arial, sans-serif;
-    font-size: 1.25rem;
-    font-weight: 700;
-    line-height: 1.6;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
-        }
-        .label {
-            color: #ffd166;
-    font-family: Arial, sans-serif;
-    font-size: 0.9rem;
-    font-weight: 900;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-        }
-button {
-    margin-top: 25px;
-    padding: 16px 30px;
-    border: 1px solid rgba(255, 255, 255, 0.75);
-    border-radius: 12px;
-    background: rgba(255, 255, 255, 0.18);
-    color: #ffffff;
-    cursor: pointer;
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    font-weight: 800;
-    letter-spacing: 1px;
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-    box-shadow:
-        0 8px 25px rgba(0, 0, 0, 0.25),
-        inset 0 1px 0 rgba(255, 255, 255, 0.45);
-    transition: background 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
-}
-
-.lesson-button:hover {
-    background: rgba(255, 255, 255, 0.32);
-    box-shadow:
-        0 12px 30px rgba(0, 0, 0, 0.35),
-        inset 0 1px 0 rgba(255, 255, 255, 0.7);
-    transform: translateY(-3px);
-}
- 
-.lesson-button:active {
-    transform: translateY(1px);
-}
-.hero {
-     width: 100%;
-     min-height: 100vh;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     padding: 80px 8vw;
-     background:
-          linear-gradient(
-              90deg,
-            rgba(0,0,0,0.75),
-            rgba(0,0,0,0.15)
-          ),
-          url("alexander-grey-8lnbXtxFGZw-unsplash.jpg") center/cover;
-}
-
-.hero-text {
-    max-width: 650px;
-}
-.label {
-    color: #f4b942;
-    font-family: Arial, sans-serif;
-    font-weight: bold;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-}
-
-.lesson-button {
-    display: inline-block;
-    text-decoration: none;
-    margin-top: 25px;
-    padding: 16px 30px;
-    border: 1px solid rgba(255, 255, 255, 0.75);
-    border-radius: 12px;
-    background: rgba(255, 255, 255, 0.18);
-    color: #ffffff;
-    cursor: pointer;
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    font-weight: bold
-}
-
-.menu-link {
-    display: inline-block;
-    margin: 25px 0 0 18px;
-    color: rgba(255, 255, 255, 0.9);
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.menu-link:hover {
-    color: #ffd166;
-}
-
-
-    
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main class="hero">
         <div class="hero-text">
-            <p class="label">A guide for growing up</p>
+            <p class="label">A guide for meowing up</p>
 
             <h1>Money,<br>but smarter.</h1>
 
-            <p class="description">
-                Learn how to earn, save, and spend money with confidence
-                during your teenage years.
+            <p class="intro">
+                Learn Money with my kitten!
             </p>
 
-            <a href="lesson.html" class="lesson-button">Start learning</a>
-            <a href="menu.html" class="menu-link">Main menu</a>
+            <div class="lesson-wrapper">
+                <a href="menu.html" class="lesson-button">Start learning</a>
+
+            <img
+                src="my-charecter.gif"
+                alt="My animated charecter"
+                class="character">
         </div>
-    </main>
+    </div>
+</main>
 </body>
 </html>

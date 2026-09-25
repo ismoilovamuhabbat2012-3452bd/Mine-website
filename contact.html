@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-    
-<meta charset="UTF-8">
+    <link rel="stylesheet" href="kittens.css">
+    <meta charset="UTF-8">
     <title>Contact Me</title>
 
 <style>
@@ -11,9 +10,9 @@
         min-height: 100vh;
         margin: 0;
         padding: 60px 8vw;
-        background: linear-gradient(135deg, #f4efe5, #d9e2df);
-        color:dimgray;
-        font-family: Arial, sans-serif;
+        background: #000000;
+        color: #ffffff;
+        font-family: "Comic Sans MS", "Comic Sans", cursive;
         text-align:center;
 
     }
@@ -21,7 +20,7 @@
         max-width: 1000px;        margin: auto;
         padding: 45px;
         border-radius: 20px;
-        background: rgba(255, 255, 255, 0.55);
+        background: #000000;
         box-shadow: 0 15px 40px rgba(70, 70, 70, 0.15);
 
     }
@@ -74,6 +73,17 @@
     transform: translateY(1px);
 }
 
+.contact-kitten {
+    display: block;
+    width: 300px;
+    max-width: 80%;
+    height: auto;
+    margin: 0 auto 25px;
+    filter:
+        drop-shadow(0 0 6px white)
+        drop-shadow(0 0 16px rgba(255, 255, 255, 0.85))
+        drop-shadow(0 0 28px rgba(255, 255, 255, 0.5));
+}
 </style>
 </head>
     <body>
@@ -103,6 +113,22 @@
 </a>
      
     </div>
+    <img
+    src="Contact-kitten.gif"
+    alt="A kitten welcoming visitors to the contact page"
+    class="Contact-kitten">
+    <div class="contact-box">
+    <img
+        src="Contact-kitten.gif"
+        alt="A kitten welcoming visitors to the contact page"
+        class="contact-kitten">
+
+    <section id="contact">
+        <h2>Contact!</h2>
+
+        <!-- your contact content -->
+    </section>
+</div>
 </body>
 
     

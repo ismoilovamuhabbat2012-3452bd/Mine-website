@@ -1,0 +1,136 @@
+/* ==========================================
+   HOMEPAGE STYLES - Handcoded by Mibycraftory
+   ========================================== */
+
+/* Universal box reset */
+* { 
+    box-sizing: border-box;
+}
+
+/* Set up the base text and dark theme vibe */
+body {
+    color: #ffffff;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main landing container layout using clean flexbox values */
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 60px 20px;
+    /* Soft dark overlay on top of our custom money background image */
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)), 
+                url("alexander-grey-8lnbXtxFGZw-unsplash.jpg") center/cover;
+    text-align: center;
+}
+
+/* Keeps our headline and buttons grouped nicely */
+.hero-text {
+    max-width: 650px;
+}
+
+/* The small tracking category label at the very top */
+.label {
+    color: #ffffff; /* Clean custom gold/yellow accent color */
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Massive custom typography headline */
+h1 {
+    font-size: 54px;
+    line-height: 1.1;
+    margin: 20px 0;
+    color: #000000;
+    text-align: center;
+    filter:
+        drop-shadow(0 0 6px white)
+        drop-shadow(0 0 16px rgba(255, 255, 255, 0.85))
+        drop-shadow(0 0 28px rgba(255, 255, 255, 0.5));
+}
+
+/* Short theme summary text underneath the title */
+.description {
+    font-size: 18px;
+    line-height: 1.6;
+    color: rgba(0, 0, 0, 0.9);
+    margin-bottom: 30px;
+    text-align: center;
+    filter:
+        drop-shadow(0 0 6px white)
+        drop-shadow(0 0 16px rgba(255, 255, 255, 0.85))
+        drop-shadow(0 0 28px rgba(255, 255, 255, 0.5));
+}
+
+/* The custom primary action button layout */
+.lesson-button {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #c2bdbd;
+    color: #787777;
+    padding: 14px 28px;
+    border: 1px solid #444040;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background 0.2s ease, transform 0.2s ease;
+    filter:
+        drop-shadow(0 0 6px white)
+        drop-shadow(0 0 16px rgba(255, 255, 255, 0.85))
+        drop-shadow(0 0 28px rgba(255, 255, 255, 0.5));
+
+}
+
+/* Smooth motion when hovering or interacting with our buttons */
+.lesson-button:hover {
+    background-color: #555050;
+    transform: translateY(-2px);
+}
+
+/* Inline text link layout for navigating to the main menu */
+.menu-link {
+    display: inline-block;
+    margin-left: 20px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.menu-link:hover {
+    color: #f4b942;
+}
+.lesson-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.character {
+    position: absolute;
+    z-index: 2;
+    width: 500px;
+    height: auto;
+    left: 300%;
+    bottom: 10;
+    object-fit: contain;
+    transform: translateX(-50%);
+    pointer-events: none;
+    filter:
+    drop-shadow(0 0 6px white)
+    drop-shadow(0 0 16px rgba(255, 255, 255, 0.9));
+}
+
+.hero-text {
+    max-width: 650px;
+    position: relative;
+    top: -70px;
+}

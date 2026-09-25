@@ -1,0 +1,69 @@
+.page-kitten {
+    position: fixed;
+    z-index: 20;
+    width: 300px;   
+    height: auto;
+    pointer-events: none;
+    filter:
+    drop-shadow(0 0 6px #ffffff)
+    drop-shadow(0 0 14px rgba(255, 255, 255, 0.95))
+    drop-shadow(0 0 30px rgba(255, 255, 255, 0.7));
+    
+}
+.kitten-one {
+    right: 7%;
+    bottom: 8%;
+    transform: rotate(4deg);
+}
+.kitten-two {
+    left: 6%;
+    top: calc(18% + 49px);
+    width: 200px;
+    transform: rotate(-7deg);
+}
+
+.kitten-three {
+    right: 35%;
+    top: 8%;
+    width: 180px;
+    transform: rotate(5deg);
+}
+
+.kitten-four {
+    right: 7%;
+    bottom: calc(4% - 69px);
+    width: 300px;
+    filter:
+        drop-shadow(0 0 6px #ffffff)
+        drop-shadow(0 0 14px rgba(255, 255, 255, 0.95))
+        drop-shadow(0 0 30px rgba(255, 255, 255, 0.7));
+    transform: rotate(4deg);
+}
+
+@media (max-width: 650px) {
+    .page-kitten {
+        width: 95px;
+    }
+
+    .kitten-one {
+        right: 4%;
+        bottom: 5%;
+    }
+   .kitten-two {
+        left: 3%;
+        top: 12%;
+        width: 80px;
+    }
+
+    .kitten-three {
+        right: 25%;
+        top: 5%;
+        width: 85px;
+    }
+
+    .kitten-four {
+        right: 2%;
+        bottom: 4%;
+        width: 150px;
+    }
+}
