@@ -21,6 +21,7 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 60px 20px;
     /* Soft dark overlay on top of our custom money background image */
     background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)), 
@@ -64,11 +65,12 @@ h1 {
     color: rgba(0, 0, 0, 0.9);
     margin-bottom: 30px;
     text-align: center;
-    filter:
+   filter:
         drop-shadow(0 0 6px white)
         drop-shadow(0 0 16px rgba(255, 255, 255, 0.85))
         drop-shadow(0 0 28px rgba(255, 255, 255, 0.5));
 }
+
 
 /* The custom primary action button layout */
 .lesson-button {
@@ -82,6 +84,7 @@ h1 {
     font-size: 16px;
     font-weight: bold;
     transition: background 0.2s ease, transform 0.2s ease;
+    text-align: center;
     filter:
         drop-shadow(0 0 6px white)
         drop-shadow(0 0 16px rgba(255, 255, 255, 0.85))
@@ -93,6 +96,7 @@ h1 {
 .lesson-button:hover {
     background-color: #555050;
     transform: translateY(-2px);
+    text-align: center;
 }
 
 /* Inline text link layout for navigating to the main menu */
@@ -104,6 +108,7 @@ h1 {
     font-weight: bold;
     text-decoration: none;
     transition: color 0.2s ease;
+    text-align: center;
 }
 
 .menu-link:hover {
@@ -131,6 +136,8 @@ h1 {
 
 .hero-text {
     max-width: 650px;
+    width: 100%;
+    margin: 0 auto;
     position: relative;
     top: -70px;
 }
